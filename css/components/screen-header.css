@@ -1,0 +1,30 @@
+.screen-header {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--horizontal-space);
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  
+}
+.screen-header__title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2e363e;
+ 
+}
+.header__icons span{
+  margin-left: 25px;
+ 
+
+}
+
+.header__cog{
+  width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 50%;
+    left: 10px;
+    bottom: 30px;
+}
