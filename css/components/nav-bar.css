@@ -16,19 +16,22 @@
     position: relative;
     color: #2e363e
 }
+@keyframes notificationanimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(5px) rotateY(360dge);
+    }
+    100%{
+        transform: none;
+    }
+}
 .nav__notification{
-    width: 30px;
-    height: 30px;
-    background-color: tomato;
-    border-radius: 50%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
     position: absolute;
     left: 15px;
     bottom: 15px;
+    animation: notificationanimation 2s ease-in-out infinite;
 }
 
 .nav__more{
